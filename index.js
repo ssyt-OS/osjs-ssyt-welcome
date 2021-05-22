@@ -43,7 +43,7 @@ const register = (core, args, options, metadata) => {
 
   // Create  a new Window instance
   proc.createWindow({
-    id: 'MyIframeApplicationWindow',
+    id: 'ssytos-welcome',
     title: metadata.title.en_EN,
     dimension: {width: 400, height: 400},
     position: {left: 700, top: 200}
@@ -54,7 +54,7 @@ const register = (core, args, options, metadata) => {
       iframe.style.width = '100%';
       iframe.style.height = '100%';
       iframe.src = proc.resource('/data/index.html');
-      iframe.setAttribute('border', '0');
+      iframe.setAttribute('frameborder', '0');
       $content.appendChild(iframe);
     });
 

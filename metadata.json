@@ -1,0 +1,13 @@
+{
+  "name": "ssyt-welcome",
+  "category": null,
+  "title": {
+    "en_EN": "ssyt-welcome"
+  },
+  "description": {
+    "en_EN": "Welcome screen"
+  },
+  "files": [
+    "main.js"
+  ]
+}
